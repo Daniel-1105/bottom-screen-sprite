@@ -38,5 +38,5 @@ game.onUpdateInterval(1000, function () {
         . . . . . b b b b b b . . . . . 
         `, Clam, 0, -50)
     ball.y += -3
-    ball.x += 0
+    ball.x += randint(1, 14)
 })
